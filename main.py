@@ -17,3 +17,24 @@ print(swap1, swap2)
 
 swap1 -= swap2
 print(swap1)
+
+z, x, c = [1, 2, 3]
+print(z)
+print(x)
+print(c)
+
+*a, b, v = [12,13,14,15,16]
+print(a)
+print(b)
+print(v)
+
+s = int(input("Введи число "))
+print(s, type(s))
+
+s1 = int(input("Введите инт1"))
+print("s1 = ", s1)
+s2 = int(input("Введите инт2"))
+print("s2 = ", s2)
+
+r = float(s1) + float(s2)
+print(r, type(r))
