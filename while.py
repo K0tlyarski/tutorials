@@ -1,10 +1,12 @@
-x = int(input())
-count = 0
-y = 1
-while count < x:
-    count+=1
-    y *= count
+x = ''
 
-print(y)
-
-
+while len(x)<5:
+    y=input('vvod ')
+    if y == 'o':
+        continue
+    if y == 'l':
+        break
+    x += y
+else:
+    print(x)
+print('it work')
