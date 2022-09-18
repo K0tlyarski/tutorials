@@ -1,4 +1,3 @@
-
 import os
 sayt = 'youtube.com'
 if 'https://' in sayt:
