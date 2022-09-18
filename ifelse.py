@@ -1,5 +1,6 @@
+
 import os
-sayt = input()
+sayt = 'youtube.com'
 if 'https://' in sayt:
     os.system('start ' + sayt)
     print('if')
