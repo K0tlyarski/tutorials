@@ -12,11 +12,37 @@ print(m)
 n = list('stroka')
 print(n)
 
-k = list(range(10))
+k = list(range(1, 21))
 o = []
+b = k.copy()
+#срез это b = k[start:stop:step]
 for i in k:
-    if i == 8:
-        continue
-    o += [i]
+    if i % 2 == 0:
+        o.append(i)
+        k.remove(i)
 print(o)
 print(k)
+print(b)
+
+# x = [9, 8, 7, 6]
+# print(x)
+# x.append(45)
+# print(x)
+# x.insert(2, 9)
+# print(x)
+# print(x.count(9))
+# x.sort()
+# print(x)
+# x.reverse()
+# print(x)
+# y = x.pop(1)
+# print(y)
+# print(x)
+# x.remove(7)
+# print(x)
+#
+# x.extend(['s', 'r'])
+# print(x)
+# h = x.copy()
+# print(x)
+# x.clear()
